@@ -1,0 +1,240 @@
+/* MEDIA 1350px */
+
+@media (max-width:1350px) {
+    h1 {
+        font-size: 4rem;
+        padding-top: 3rem;
+        padding-right: 12rem;
+    }
+
+    .main {
+        gap: 3rem;
+        max-width: 1200px;
+    }
+
+    .login {
+        position: unset;
+    }
+}
+
+/* MEDIA 1024px*/
+
+
+@media (max-width: 1024px) {
+
+    .main {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .mobile_image {
+        display: inline;
+        width: 100%;
+    }
+
+    .desktopimage {
+        display: none;
+    }
+
+    .login a {
+        font-size: 13px;
+    }
+
+    .navigation {
+        left: 14%;
+    }
+
+    .navigation ul {
+        gap: unset;
+
+    }
+
+    .dropdown {
+        margin: unset;
+    }
+
+    .dropdown-button {
+        font-size: 15px;
+    }
+
+    .burger {
+        display: none;
+    }
+
+    .left {
+        align-items: center;
+        gap: 2rem;
+        text-align: center;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 33px;
+        padding-right: unset;
+        font-weight: 800;
+    }
+
+    .foot {
+        gap: 1rem;
+    }
+
+    .foot img {
+        max-width: 5rem;
+        width: 100%;
+    }
+
+    .dropdown-menu-mobile {
+        position: absolute;
+        list-style-type: none;
+        margin: 0;
+        padding: 14px 9px 15px 5px;
+        background-color: #fff;
+        transition: right 0.3s ease;
+        right: -3rem;
+        position: relative;
+        border: none;
+
+    }
+
+    .dropdown-menu-2-mobile {
+        position: absolute;
+        list-style-type: none;
+        margin: 0 -19px 0 0;
+        padding: 20px 8px 20px 8px;
+        background-color: #fff;
+        border-radius: 15px;
+        transition: visibility 0s, opacity 0.5s ease-in-out;
+        left: 3rem;
+        position: relative;
+    }
+
+    li {
+        line-height: 2rem;
+    }
+
+}
+
+@media (max-width:768px) {
+
+    .dropdown-menu {
+        visibility: hidden;
+        position: absolute;
+        list-style-type: none;
+        margin: 0;
+        padding: 15px 5px 16px 5px;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 13px;
+        box-shadow: 0px 4px 23px hsl(0deg 0% 8% / 24%);
+        transition: visibility 0;
+        opacity: 1s ease-in-out;
+        right: -2rem;
+    }
+
+    .dropdown-menu-2 {
+        visibility: hidden;
+        position: absolute;
+        list-style-type: none;
+        margin: 0 -19px 0 0;
+        padding: 20px 8px 20px 8px;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 15px;
+        box-shadow: 0px 4px 23px hsl(0deg 0% 8% / 24%);
+        transition: visibility 0s, opacity 0.5s ease-in-out;
+        /* opacity: 0; */
+        left: 2rem;
+    }
+
+    .login,
+    .navigation {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .navigation_mobile ul {
+        position: absolute;
+        right: -312px;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        padding: 60px 20px;
+        border-radius: 5px;
+        width: 69%;
+        height: 100%;
+    }
+
+    li {
+        position: relative;
+        gap: 1rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .login_mobile a {
+        color: var(--Medium-Gray);
+        font-weight: 700;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .login_mobile {
+        position: absolute;
+        left: 1rem;
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width:432px) {
+
+    .navigation_mobile ul {
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        padding: 55px 10px;
+        border-radius: 5px;
+        width: 95%;
+        height: 100%;
+    }
+
+    li {
+        position: relative;
+        gap: 1rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .login_mobile {
+        align-content: baseline;
+        flex-wrap: wrap;
+        margin-top: 8rem;
+        position: absolute;
+        left: 3rem;
+    }
+
+    .login_mobile a {
+        color: var(--Medium-Gray);
+        font-weight: 700;
+    }
+}
+
+@media (max-width: 376px) {
+
+    .login_mobile {
+        align-content: baseline;
+        flex-wrap: wrap;
+        margin-top: 8rem;
+        position: absolute;
+        left: 1rem;
+    }
+
+    .login_mobile a {
+        color: var(--Medium-Gray);
+        font-weight: 700;
+    }
+}
